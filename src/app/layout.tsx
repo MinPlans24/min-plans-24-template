@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "@shared/styles/shadcn-config.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import { inter } from "@shared/constants/font";
-import { QueryClientProviderWrapper } from "@shared/components/ui/query-client-provider";
+import { QueryClientProviderWrapper } from "@shared/components/query-client-provider";
 
 export const metadata: Metadata = {
   title: "Min Plans 24",
